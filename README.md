@@ -24,7 +24,7 @@ You'll also need to generate a Timezone file for your local timezone.
 
 From a Unix machine this is how I generated one for New York
 
-  xxd -i /usr/share/zoneinfo/America/New_York | sed -e 's/unsigned char.*/unsigned char PROGMEM mytz[]={/' > mytz.h
+    xxd -i /usr/share/zoneinfo/America/New_York | sed -e 's/unsigned char.*/unsigned char PROGMEM mytz[]={/' > mytz.h
 
 This file has been included in the repo for simple testing.
 
