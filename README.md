@@ -17,8 +17,6 @@ You will need to make a file `network_conn.h` with contents similar to
 
     const char* ssid       = "your-ssid";
     const char* password   = "your-wpa-passwd";
-    const char* mqttServer = "your-MQTT-server";
-    const int mqttPort     = 1883;
 
 You'll also need to generate a Timezone file for your local timezone.
 
